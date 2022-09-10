@@ -260,6 +260,11 @@ ul li a:hover {
   color: var(--secondary-color);
 }
 
+.contact-container a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
 .contact-social-links {
     display: flex;
     align-items: center;
