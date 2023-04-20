@@ -324,6 +324,16 @@ ul li a:hover {
 
 }
 
+/* media  type */
+
+/* type { print,} */
+
+@media print {
+  body{
+    background-color: #07b549;
+  };
+}
+
 @media screen and (max-width:440px){
     html{
         font-size: 40%;
