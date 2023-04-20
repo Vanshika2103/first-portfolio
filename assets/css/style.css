@@ -22,7 +22,7 @@ li {
 
 /* css variables  */
 :root {
-  --primary-color: #0f172a;
+  --primary-color: #2A2F4F;
   --secondary-color: #d10034;
   --bg-color: #1e293b;
   --text-white: #eff6ff;
@@ -61,10 +61,15 @@ li {
   text-transform: uppercase;
   padding: 1rem 0;
   font-weight: 700;
+  display: inline-block;
+  padding: 10px;
+  border-radius:4px;
 }
 
 ul li a:hover {
   border-bottom: 0.3rem solid white;
+  background-color: var(--primary-color);
+  
 }
 
 /* hero section  */
@@ -83,6 +88,13 @@ ul li a:hover {
   border-radius: 2rem 4rem;
 }
 
+h1,h3,p{
+  color: var(--primary-color);
+}
+
+p {
+  text-transform: capitalize;
+}
 .about {
   width: 30rem;
 }
@@ -106,8 +118,9 @@ ul li a:hover {
 }
 
 .hero img {
-  width: 35rem;
-  height: 35rem;
+  width: 30rem;
+  height: 30rem;
+  border-radius: 50%;
 }
 
 #cv-btn {
