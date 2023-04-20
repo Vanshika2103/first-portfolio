@@ -82,7 +82,7 @@ ul li a:hover {
   padding: 2rem 2rem;
   margin-top: 5rem;
   gap: 3rem;
-  background-image: url("../images/bg.jpg");
+  /* background-image: url("../images/bg.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 2rem 4rem;
